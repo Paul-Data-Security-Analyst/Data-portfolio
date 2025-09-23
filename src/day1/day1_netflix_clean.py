@@ -94,7 +94,7 @@ print(f"\n[+] Saved cleaned data → {clean_path}")
 
 # ---------- Optional: export quick summary ----------
 summary_lines = [
-    "# Netflix Movies (≥2015) — Day 1 Summary",
+    "# Netflix Movies (≥2015) — day1 Summary",
     f"- Original rows: {kpis['total_rows_original']}",
     f"- Filtered rows: {kpis['total_rows_filtered']}",
     f"- Year range: {kpis['year_min']}–{kpis['year_max']}",
