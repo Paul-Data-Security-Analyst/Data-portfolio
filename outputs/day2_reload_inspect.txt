@@ -1,0 +1,76 @@
+Loaded from: C:\Users\Admin\Documents\GitHub\outputs\netflix_movies_2015plus_clean.csv
+
+=== SHAPE ===
+(4017, 12)
+
+=== INFO ===
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 4017 entries, 0 to 4016
+Data columns (total 12 columns):
+ #   Column        Non-Null Count  Dtype 
+---  ------        --------------  ----- 
+ 0   show_id       4017 non-null   object
+ 1   type          4017 non-null   object
+ 2   title         4017 non-null   object
+ 3   director      3859 non-null   object
+ 4   cast          3607 non-null   object
+ 5   country       3652 non-null   object
+ 6   date_added    4017 non-null   object
+ 7   release_year  4017 non-null   int64 
+ 8   rating        4015 non-null   object
+ 9   duration      4015 non-null   object
+ 10  listed_in     4017 non-null   object
+ 11  description   4017 non-null   object
+dtypes: int64(1), object(11)
+memory usage: 376.7+ KB
+
+
+=== FIRST 5 ROWS ===
+  show_id   type                             title                       director                                                                                                                                                                     cast                  country  date_added  release_year rating duration                           listed_in                                                                                                                                                description
+0      s1  Movie              Dick Johnson Is Dead                Kirsten Johnson                                                                                                                                                                      NaN            United States  2021-09-25          2020  PG-13   90 min                       Documentaries   As her father nears the end of his life, filmmaker Kirsten Johnson stages his death in inventive and comical ways to help them both face the inevitable.
+1      s7  Movie  My Little Pony: A New Generation  Robert Cullen, José Luis Ucha                        Vanessa Hudgens, Kimiko Glenn, James Marsden, Sofia Carson, Liza Koshy, Ken Jeong, Elizabeth Perkins, Jane Krakowski, Michael McKean, Phil LaMarr                      NaN  2021-09-24          2021     PG   91 min            Children & Family Movies  Equestria's divided. But a bright-eyed hero believes Earth Ponies, Pegasi and Unicorns should be pals — and, hoof to heart, she’s determined to prove it.
+2     s10  Movie                      The Starling                 Theodore Melfi   Melissa McCarthy, Chris O'Dowd, Kevin Kline, Timothy Olyphant, Daveed Diggs, Skyler Gisondo, Laura Harrier, Rosalind Chao, Kimberly Quinn, Loretta Devine, Ravi Kapoor            United States  2021-09-24          2021  PG-13  104 min                    Comedies, Dramas    A woman adjusting to life after a loss contends with a feisty bird that's taken over her garden — and a husband who's struggling to find a way forward.
+3     s13  Movie                      Je Suis Karl            Christian Schwochow  Luna Wedler, Jannis Niewöhner, Milan Peschel, Edin Hasanović, Anna Fialová, Marlon Boess, Victor Boccard, Fleur Geffrier, Aziz Dyab, Mélanie Fouché, Elizaveta Maximová  Germany, Czech Republic  2021-09-23          2021  TV-MA  127 min        Dramas, International Movies              After most of her family is murdered in a terrorist bombing, a young woman is unknowingly lured into joining the very group that killed them.
+4     s14  Movie  Confessions of an Invisible Girl                  Bruno Garotti                       Klara Castanho, Lucca Picon, Júlia Gomes, Marcus Bessa, Kiria Malheiros, Fernanda Concon, Gabriel Lima, Caio Cabral, Leonardo Cidade, Jade Cardozo                      NaN  2021-09-22          2021  TV-PG   91 min  Children & Family Movies, Comedies        When the clever but socially-awkward Tetê joins a new school, she'll do anything to fit in. But the queen bee among her classmates has other ideas.
+
+=== UNIQUE VALUES PER COLUMN ===
+show_id         4017
+type               1
+title           4017
+director        3226
+cast            3482
+country          473
+date_added      1380
+release_year       7
+rating            17
+duration         178
+listed_in        207
+description     3999
+
+=== DTYPEs ===
+show_id         object
+type            object
+title           object
+director        object
+cast            object
+country         object
+date_added      object
+release_year     int64
+rating          object
+duration        object
+listed_in       object
+description     object
+
+=== MISSING VALUES (per column) ===
+cast            410
+country         365
+director        158
+duration          2
+rating            2
+title             0
+show_id           0
+type              0
+release_year      0
+date_added        0
+listed_in         0
+description       0
