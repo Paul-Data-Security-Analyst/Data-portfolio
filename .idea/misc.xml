@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Black">
+<<<<<<< HEAD
+    <option name="sdkName" value="Python 3.13 (DataAnalystTraining)" />
+=======
+    <option name="sdkName" value="Python 3.13 (data-portfolio-day1)" />
+>>>>>>> c8448d6844ad8b680112a980206fbd7b0d2f451b
+  </component>
+</project>

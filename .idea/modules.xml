@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+<<<<<<< HEAD
+      <module fileurl="file://$PROJECT_DIR$/.idea/DataAnalystTraining.iml" filepath="$PROJECT_DIR$/.idea/DataAnalystTraining.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/.idea/data-portfolio-day1.iml" filepath="$PROJECT_DIR$/.idea/data-portfolio-day1.iml" />
+>>>>>>> c8448d6844ad8b680112a980206fbd7b0d2f451b
+    </modules>
+  </component>
+</project>
